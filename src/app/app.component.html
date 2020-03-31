@@ -1,0 +1,16 @@
+<div>
+  <h4>ngIf and else Example</h4>
+  <div *ngIf="b ; then template1 ; else template2">
+ </div>
+ <ng-template #template1>
+   <div style= "background-color: #33ff66">
+     Congratulation!!!!....
+   </div>
+ </ng-template>
+
+ <ng-template #template2>
+   <div style="background-color:red">
+     Better Luck Next Time!!!!
+   </div>
+ </ng-template>
+</div>
